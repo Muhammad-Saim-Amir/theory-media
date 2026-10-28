@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Theory Media | Brand video for founder led companies</title>
+<meta name="description" content="Theory Media plans, shoots, and edits brand video for founder led companies. Book a strategy call and see a first cut in 11 days.">
+<meta property="og:title" content="Theory Media | Brand video for founder led companies">
+<meta property="og:description" content="Brand video your customers finish watching. Book a strategy call.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='140 115 220 220'%3E%3Crect x='140' y='115' width='220' height='220' fill='%23fdfbfa'/%3E%3Cg fill='none' stroke='%23000' stroke-width='10' stroke-linecap='round'%3E%3Cpath d='M158 133L337 313M158 195V313M336 135V250M270 200L336 135'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --s25:2px;--s50:4px;--s75:8px;--s100:12px;--s200:16px;--s300:24px;--s400:32px;--s500:40px;--s600:48px;--s700:64px;--s800:80px;--s900:96px;
+  --bg:#FDFBFA;--surface:#F3F0EE;--text:#000000;--muted:#5C5956;--line:#DAD6D3;--h1:#000000;--h2:#666666;--navbg:rgba(253,251,250,.72);--panel:rgba(253,251,250,.96);
+  --ease:cubic-bezier(0.22,1,0.36,1);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000000;--surface:#181818;--text:#FFFFFF;--muted:#A8A8A8;--line:#313131;--h1:#FFFFFF;--h2:#9B9B9B;--navbg:rgba(24,24,24,.72);--panel:rgba(0,0,0,.96);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#000000;--surface:#181818;--text:#FFFFFF;--muted:#A8A8A8;--line:#313131;--h1:#FFFFFF;--h2:#9B9B9B;--navbg:rgba(24,24,24,.72);--panel:rgba(0,0,0,.96);color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + var(--s900));height:100%}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--text);font-family:'Manrope',system-ui,sans-serif;font-size:16px;line-height:24px;font-weight:400;font-style:normal;-webkit-font-smoothing:antialiased;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--bg);z-index:10}
+body.lock{overflow:hidden}
+h1,h2,h3{text-wrap:balance;font-weight:600;margin:0}
+p{text-wrap:pretty;margin:0}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--text);outline-offset:var(--s25)}
+.skip{position:absolute;left:var(--s200);top:var(--s200);padding:var(--s75) var(--s100);background:var(--text);color:var(--bg);border-radius:8px;font-size:14px;line-height:20px;font-weight:600;transform:translateY(-200%);z-index:100}
+.skip:focus{transform:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 var(--s300)}
+section{padding:var(--s700) 0}
+@media(min-width:768px){section{padding:var(--s900) 0}}
+.eyebrow{font-size:14px;line-height:20px;font-weight:600;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;margin-bottom:var(--s200)}
+h2{font-size:30px;line-height:36px}
+@media(min-width:768px){h2{font-size:36px;line-height:40px}}
+.lead{color:var(--muted);font-size:18px;line-height:28px}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;gap:var(--s75);padding:var(--s75) var(--s100);border-radius:8px;border:1px solid var(--text);background:var(--text);color:var(--bg);font:600 16px/24px 'Manrope',system-ui,sans-serif;text-decoration:none;cursor:pointer;transition:transform 500ms var(--ease),background-color 300ms var(--ease),color 300ms var(--ease)}
+.btn:hover{transform:translateY(-2px);background:var(--muted);border-color:var(--muted)}
+.btn:active{transform:scale(.98)}
+.btn.sm{font-size:14px;line-height:20px}
+.btn svg{width:16px;height:16px;fill:currentColor}
+
+/* nav */
+.nav{position:fixed;top:calc(env(safe-area-inset-top,0px) + var(--s100));left:50%;transform:translateX(-50%);z-index:30;display:flex;align-items:center;gap:var(--s300);padding:var(--s75);padding-left:var(--s200);border:1px solid var(--line);border-radius:16px;background:var(--navbg);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);width:max-content;max-width:calc(100% - var(--s400))}
+.brand{display:flex;align-items:center;gap:var(--s75);text-decoration:none;font-weight:600;font-size:14px;line-height:20px;letter-spacing:.3em}
+.mark{display:block;fill:none;stroke:currentColor;stroke-linecap:round;stroke-width:8}
+.links{display:none;gap:var(--s50);list-style:none;margin:0;padding:0}
+.links a{display:block;padding:var(--s75) var(--s100);border-radius:8px;text-decoration:none;font-size:14px;line-height:20px;font-weight:500;color:var(--muted);transition:background-color 300ms var(--ease),color 300ms var(--ease)}
+.links a:hover,.links a[aria-current="true"]{background:var(--surface);color:var(--text)}
+.navcta{display:none}
+.toggle{width:40px;height:40px;border:0;background:transparent;color:var(--text);cursor:pointer;position:relative;border-radius:8px}
+.toggle span{position:absolute;left:var(--s100);right:var(--s100);height:2px;background:currentColor;border-radius:2px;transition:transform 500ms var(--ease)}
+.toggle span:nth-child(1){transform:translateY(-4px)}.toggle span:nth-child(2){transform:translateY(4px)}
+.toggle[aria-expanded="true"] span:nth-child(1){transform:rotate(45deg)}
+.toggle[aria-expanded="true"] span:nth-child(2){transform:rotate(-45deg)}
+.toggle span{top:calc(50% - 1px)}
+@media(min-width:900px){.links,.navcta{display:flex}.toggle{display:none}}
+.panel{position:fixed;inset:0;z-index:20;background:var(--panel);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);display:flex;flex-direction:column;justify-content:center;gap:var(--s200);padding:var(--s900) var(--s400);opacity:0;visibility:hidden;transition:opacity 500ms var(--ease),visibility 0s linear 500ms}
+.panel.open{opacity:1;visibility:visible;transition:opacity 500ms var(--ease)}
+.panel a{font-size:30px;line-height:36px;font-weight:600;text-decoration:none;opacity:0;transform:translateY(24px);transition:transform 500ms var(--ease),opacity 500ms var(--ease)}
+.panel.open a{opacity:1;transform:none}
+.panel a:nth-child(1){transition-delay:0ms}.panel a:nth-child(2){transition-delay:60ms}.panel a:nth-child(3){transition-delay:120ms}.panel a:nth-child(4){transition-delay:180ms}.panel a:nth-child(5){transition-delay:240ms}.panel a:nth-child(6){transition-delay:300ms}
+@media(min-width:900px){.panel{display:none}}
+
+/* hero */
+.hero{padding-top:var(--s900);text-align:center}
+@media(min-width:768px){.hero{padding-top:calc(var(--s900) + var(--s400))}}
+.hero h1{max-width:680px;margin:0 auto var(--s200);font-size:36px;line-height:40px;background:linear-gradient(90deg,var(--h1),var(--h2));-webkit-background-clip:text;background-clip:text;color:transparent;-webkit-text-fill-color:transparent;padding-bottom:var(--s50)}
+@media(min-width:768px){.hero h1{font-size:48px;line-height:1}}
+.hero .lead{max-width:680px;margin:0 auto var(--s300)}
+.risk{margin-top:var(--s200);font-size:14px;line-height:20px;color:var(--muted)}
+.proofline{margin-top:var(--s500);font-size:14px;line-height:20px;color:var(--muted)}
+.stage{margin-top:var(--s600);border:1px solid var(--line);border-radius:16px;padding:var(--s75);background:var(--bg)}
+.stage .inner{border-radius:8px;background:var(--surface);padding:var(--s600) var(--s200);display:grid;gap:var(--s400);justify-items:center}
+.stage .mark{width:160px;height:160px}
+.stats{display:grid;gap:var(--s200);width:100%;grid-template-columns:1fr}
+@media(min-width:768px){.stats{grid-template-columns:repeat(3,1fr)}.stage .mark{width:200px;height:200px}}
+.stat{border:1px solid var(--line);border-radius:8px;padding:var(--s200);background:var(--bg);text-align:left}
+.stat b{display:block;font-size:30px;line-height:36px;font-weight:600}
+.stat span{font-size:14px;line-height:20px;color:var(--muted)}
+.clients{display:flex;flex-wrap:wrap;justify-content:center;gap:var(--s300) var(--s500);color:var(--muted);font-weight:600;font-size:18px;line-height:28px;padding-top:var(--s500)}
+
+/* tagline */
+.tagline{padding:var(--s900) 0}
+.tagline p{max-width:960px;font-size:36px;line-height:40px;font-weight:600}
+@media(min-width:768px){.tagline p{font-size:48px;line-height:1}}
+@media(min-width:1024px){.tagline p{font-size:60px}}
+.w{opacity:.3;transition:opacity 500ms var(--ease)}
+.w.on{opacity:1}
+
+/* grids and cards */
+.grid{display:grid;gap:var(--s200);margin-top:var(--s500)}
+@media(min-width:768px){.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}}
+.card{border:1px solid var(--line);border-radius:16px;padding:var(--s300);background:var(--bg)}
+.card h3{font-size:20px;line-height:28px;margin-bottom:var(--s75)}
+.card p{color:var(--muted)}
+.num{font-size:14px;line-height:20px;font-weight:600;color:var(--muted);margin-bottom:var(--s200);display:block}
+.quote p{color:var(--text);font-size:18px;line-height:28px;margin-bottom:var(--s300)}
+.quote cite{font-style:normal;font-size:14px;line-height:20px;color:var(--muted);display:block}
+.quote cite b{display:block;color:var(--text);font-weight:600}
+.head{max-width:680px}
+
+/* faq */
+.faq{display:grid;gap:var(--s100);margin-top:var(--s500);max-width:800px}
+details{border:1px solid var(--line);border-radius:16px;background:var(--bg)}
+summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:var(--s200);padding:var(--s200) var(--s300);font-weight:600;border-radius:16px}
+summary::-webkit-details-marker{display:none}
+summary svg{width:16px;height:16px;fill:currentColor;flex:none;transition:transform 500ms var(--ease)}
+details[open] summary svg{transform:rotate(45deg)}
+details p{padding:0 var(--s300) var(--s200);color:var(--muted)}
+
+/* final cta */
+.final{text-align:center}
+.final .card{background:var(--surface);padding:var(--s600) var(--s300)}
+.final h2{max-width:680px;margin:0 auto var(--s200)}
+.final .lead{max-width:680px;margin:0 auto var(--s300)}
+form{display:flex;flex-wrap:wrap;gap:var(--s75);justify-content:center;max-width:480px;margin:0 auto}
+input{flex:1 1 240px;padding:var(--s75) var(--s100);border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--text);font:400 16px/24px 'Manrope',system-ui,sans-serif}
+input[aria-invalid="true"]{border-color:var(--text)}
+.msg{flex-basis:100%;min-height:20px;font-size:14px;line-height:20px;color:var(--muted)}
+
+footer{padding:var(--s600) 0 var(--s800);color:var(--muted);font-size:14px;line-height:20px}
+.foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:var(--s300);align-items:center}
+.foot nav{display:flex;gap:var(--s300)}
+.legal{margin-top:var(--s500);display:grid;gap:var(--s200)}
+.legal h3{font-size:16px;line-height:24px;color:var(--text);margin-bottom:var(--s50)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(32px);transition:opacity 700ms var(--ease),transform 700ms var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){
+  .reveal{transform:none}.panel a{transform:none}.btn:hover{transform:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+  <div class="nav" role="navigation" aria-label="Primary">
+    <a class="brand" href="#top" aria-label="Theory Media home">
+      <svg class="mark" width="24" height="24" viewBox="150 125 200 200" role="img" aria-label="Theory Media logo mark"><path d="M158 133L337 313M158 195V313M336 135V250M270 200L336 135"/></svg>
+      THEORY
+    </a>
+    <ul class="links">
+      <li><a href="#why">Why Theory</a></li>
+      <li><a href="#how">Process</a></li>
+      <li><a href="#proof">Results</a></li>
+      <li><a href="#faq">Questions</a></li>
+    </ul>
+    <a class="btn sm navcta" href="#book">Book a call</a>
+    <button class="toggle" id="toggle" aria-expanded="false" aria-controls="panel" aria-label="Open menu"><span></span><span></span></button>
+  </div>
+  <div class="panel" id="panel" aria-hidden="true">
+    <a href="#why">Why Theory</a><a href="#how">Process</a><a href="#proof">Results</a><a href="#faq">Questions</a><a href="#book">Book a call</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="wrap">
+      <h1>Video your customers<br>finish watching</h1>
+      <p class="lead">Theory Media plans, shoots, and edits brand video for founder led companies. You get a first cut in 11 days, and a monthly report on what each film earned.</p>
+      <a class="btn" href="#book">Book a strategy call
+        <svg viewBox="0 0 256 256" aria-hidden="true"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"/></svg>
+      </a>
+      <p class="risk">Thirty minute call. No contract until you approve a plan.</p>
+      <p class="proofline">Trusted by 38 founder led brands since 2019</p>
+      <div class="stage">
+        <div class="inner">
+          <svg class="mark" viewBox="150 125 200 200" role="img" aria-label="Theory Media logo mark"><path d="M158 133L337 313M158 195V313M336 135V250M270 200L336 135"/></svg>
+          <div class="stats">
+            <div class="stat"><b>3.4x</b><span>Average rise in watch time</span></div>
+            <div class="stat"><b>11 days</b><span>From kickoff to first cut</span></div>
+            <div class="stat"><b>212</b><span>Films delivered to date</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="clients" aria-label="Selected clients">
+        <span>Harlow and Pike Coffee</span><span>Northgate Athletics</span><span>Meridian Dental Group</span><span>Salt Road Supply</span><span>Kestrel Outdoor</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="tagline" aria-label="Our belief">
+    <div class="wrap"><p id="tag">We do not chase views. We build stories people return to, share with a friend, and remember when it is time to buy.</p></div>
+  </section>
+
+  <section id="why">
+    <div class="wrap">
+      <div class="head reveal">
+        <p class="eyebrow">Why Theory</p>
+        <h2>Most brand video gets scrolled past. Ours gets finished.</h2>
+      </div>
+      <div class="grid g2">
+        <div class="card reveal"><h3>The problem</h3><p>Founders hire for a polished video, then watch 70 percent of viewers leave in the first eight seconds. The film looked fine. Nobody had decided who it was for or what they should do next.</p></div>
+        <div class="card reveal"><h3>The fix</h3><p>We write the viewer's reason to stay before anyone picks up a camera. Every film has one audience, one idea, and one next step, and we measure each against what it was built to do.</p></div>
+      </div>
+      <div class="grid g2">
+        <div class="card reveal"><span class="num">01</span><h3>A concept before a camera</h3><p>Every project starts with a one page creative brief you approve, so nothing gets shot on a guess.</p></div>
+        <div class="card reveal"><span class="num">02</span><h3>First cut in 11 days</h3><p>Most clients see a rough edit within 11 days of kickoff, with two rounds of revisions included.</p></div>
+        <div class="card reveal"><span class="num">03</span><h3>Built for every channel</h3><p>One shoot becomes a hero film, six short cuts, and a stills library sized for each platform.</p></div>
+        <div class="card reveal"><span class="num">04</span><h3>Reporting you can read</h3><p>A plain monthly summary of watch time, saves, and leads traced back to each video.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="how">
+    <div class="wrap">
+      <div class="head reveal"><p class="eyebrow">Process</p><h2>From first call to published film in three steps</h2></div>
+      <div class="grid g3">
+        <div class="card reveal"><span class="num">Step 1</span><h3>Strategy call</h3><p>Thirty minutes on your audience, your offer, and what a viewer should do afterward. You leave with a fixed quote.</p></div>
+        <div class="card reveal"><span class="num">Step 2</span><h3>Brief and shoot</h3><p>We send a one page brief for approval, then shoot in one or two days at your location or our studio.</p></div>
+        <div class="card reveal"><span class="num">Step 3</span><h3>Edit and launch</h3><p>You review the first cut, request changes, and receive final files for every channel along with a launch plan.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proof">
+    <div class="wrap">
+      <div class="head reveal"><p class="eyebrow">Results</p><h2>What clients say after the first quarter</h2></div>
+      <div class="grid g3">
+        <figure class="card quote reveal" style="margin:0"><p>Watch time on our product pages rose 3.4x in the first quarter, and the sales team now asks for the film before every demo.</p><cite><b>Danielle Okafor</b>Head of Marketing, Northgate Athletics</cite></figure>
+        <figure class="card quote reveal" style="margin:0"><p>They asked who the film was for before they asked about the budget. That single question saved us a reshoot.</p><cite><b>Imran Qureshi</b>Founder, Salt Road Supply</cite></figure>
+        <figure class="card quote reveal" style="margin:0"><p>We received 31 clips from one shoot day. Our feed has not run short of content since March.</p><cite><b>Marcus Lindqvist</b>Owner, Harlow and Pike Coffee</cite></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="head reveal"><p class="eyebrow">Questions</p><h2>Answers before you book</h2></div>
+      <div class="faq">
+        <details class="reveal"><summary>What kind of video do you make?<svg viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary><p>Brand films, product explainers, founder interviews, and short cuts for social channels. Every project is planned around one audience and one action.</p></details>
+        <details class="reveal"><summary>How long does a project take?<svg viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary><p>You see a first cut 11 days after kickoff. Final files usually arrive within three weeks, depending on how quickly feedback comes back.</p></details>
+        <details class="reveal"><summary>What does it cost?<svg viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary><p>Pricing depends on scope. After the strategy call you receive a fixed quote, and the price does not change once you approve it.</p></details>
+        <details class="reveal"><summary>Do you work with smaller brands?<svg viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary><p>Yes. Several clients started with a single short film and a team of three. We scope the work to match your stage.</p></details>
+        <details class="reveal"><summary>Who owns the footage?<svg viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary><p>You do. Final films and raw footage are yours to use on any channel, with no usage fees or expiry dates.</p></details>
+        <details class="reveal"><summary>What if I do not like the first cut?<svg viewBox="0 0 256 256" aria-hidden="true"><path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"/></svg></summary><p>Two rounds of revisions are included. If the film still misses the brief, we keep working on it until it matches what you approved.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="final" id="book">
+    <div class="wrap">
+      <div class="card reveal">
+        <h2>Book a strategy call</h2>
+        <p class="lead">Thirty minutes, no contract until you approve a plan. Leave your email and we will reply within one business day.</p>
+        <form id="form" novalidate>
+          <input type="email" id="email" name="email" placeholder="you@company.com" aria-label="Work email" autocomplete="email" required>
+          <button class="btn" type="submit">Book a strategy call</button>
+          <p class="msg" id="msg" role="status"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a class="brand" href="#top" aria-label="Theory Media home">
+        <svg class="mark" width="24" height="24" viewBox="150 125 200 200" aria-hidden="true"><path d="M158 133L337 313M158 195V313M336 135V250M270 200L336 135"/></svg>
+        THEORY MEDIA
+      </a>
+      <nav aria-label="Legal"><a href="#privacy">Privacy policy</a><a href="#terms">Terms</a><a href="#top">Back to top</a></nav>
+    </div>
+    <div class="legal">
+      <div id="privacy"><h3>Privacy policy</h3><p>We use your email only to reply to your request. We do not sell it or share it with advertisers. Replace this summary with your full policy before launch.</p></div>
+      <div id="terms"><h3>Terms</h3><p>Project terms, payment schedule, and usage rights are set out in your signed quote. Replace this summary with your full terms before launch.</p></div>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Tagline: split into words
+  var tag=document.getElementById('tag');
+  tag.innerHTML=tag.textContent.trim().split(/\s+/).map(function(w){return '<span class="w">'+w+'</span>'}).join(' ');
+  var words=tag.querySelectorAll('.w');
+  if('IntersectionObserver' in window){
+    var wo=new IntersectionObserver(function(es){
+      es.filter(function(e){return e.isIntersecting}).forEach(function(e,i){
+        e.target.style.transitionDelay=reduce?'0ms':(i*40)+'ms';
+        e.target.classList.add('on');wo.unobserve(e.target);
+      });
+    },{rootMargin:'0px 0px -40% 0px'});
+    words.forEach(function(w){wo.observe(w)});
+
+    var ro=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target)}});
+    },{threshold:.12});
+    document.querySelectorAll('.reveal').forEach(function(el){ro.observe(el)});
+
+    var links=document.querySelectorAll('.links a');
+    var so=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.setAttribute('aria-current',a.getAttribute('href')==='#'+e.target.id?'true':'false')})}});
+    },{rootMargin:'-40% 0px -55% 0px'});
+    ['why','how','proof','faq'].forEach(function(id){so.observe(document.getElementById(id))});
+  }else{
+    words.forEach(function(w){w.classList.add('on')});
+    document.querySelectorAll('.reveal').forEach(function(el){el.classList.add('in')});
+  }
+
+  // Mobile menu
+  var t=document.getElementById('toggle'),p=document.getElementById('panel');
+  function setMenu(o){t.setAttribute('aria-expanded',o);t.setAttribute('aria-label',o?'Close menu':'Open menu');p.classList.toggle('open',o);p.setAttribute('aria-hidden',!o);document.body.classList.toggle('lock',o)}
+  t.addEventListener('click',function(){setMenu(t.getAttribute('aria-expanded')!=='true')});
+  p.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){setMenu(false)})});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')setMenu(false)});
+
+  // Form: validate, then open a drafted email
+  var f=document.getElementById('form'),em=document.getElementById('email'),m=document.getElementById('msg');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var v=em.value.trim();
+    if(!v){em.setAttribute('aria-invalid','true');m.textContent='Enter your email so we know where to reply.';em.focus();return}
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)){em.setAttribute('aria-invalid','true');m.textContent='That email looks incomplete. Check it and try again.';em.focus();return}
+    em.removeAttribute('aria-invalid');
+    m.textContent='Your email app should open with a draft to our team. Send it to book your call.';
+    location.href='mailto:hello@theorymedia.com?subject='+encodeURIComponent('Strategy call request')+'&body='+encodeURIComponent('Hi Theory Media, please book me a strategy call. My email: '+v);
+  });
+  em.addEventListener('input',function(){em.removeAttribute('aria-invalid');m.textContent=''});
+})();
+</script>
+</body>
+</html>
